@@ -1,0 +1,176 @@
+.App-header
+{
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+}
+.logo
+{
+    width: 57px;
+    cursor: pointer;
+}
+.logo:hover
+{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.home
+{
+    width: 40px;
+    cursor: pointer;
+}
+
+.home:hover
+{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.sub-header-1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.search-logo
+{
+    width: 48px;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #2a2a2a; /* dark gray */
+  border-radius: 30px;
+  padding: 8px 16px;
+  min-width: 475px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  gap: 12px;
+  transition: box-shadow 0.3s ease;
+  margin-left: 7px;
+  height: 36px;
+}
+
+.search-bar:focus-within {
+  border: 2px solid #b3b3b3; /* Spotify green */
+  transition: border 0.3s ease;
+
+}
+
+.search-logo {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+}
+
+.search input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+}
+
+.search input::placeholder {
+  color: #b3b3b3;
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+/* Optional "hit" button style */
+.search:last-child {
+  flex: 0;
+  color: #1db954;
+  font-weight: bold;
+  cursor: pointer;
+  border-left: 1px ;
+      border-left: 2px solid #746d6d;
+    padding-left: 10px;
+}
+
+input {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  color: #b3b3b3;
+  background-color: #413c3c;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.sub-header-2
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 13px;
+    border-right: 2px solid #b3b3b3;
+}
+.options {
+  font-size: 1rem;
+  color: #b3b3b3;
+  font-weight: 700;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.options:hover {
+  color: white;
+  transform: scale(1.1); /* smooth zoom effect without affecting layout */
+}
+
+.sub-header-3
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.install, .sign-in
+{
+  font-size: rem;
+  color: #b3b3b3;
+  font-weight: 700;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.install:hover, .sign-in:hover
+{
+  color: white;
+  transform: scale(1.1); /* smooth zoom effect without affecting layout */
+  
+}
+
+.login-btn
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  padding: 17px 21px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+.login-btn:hover
+{
+  transform: scale(1.05);
+}
