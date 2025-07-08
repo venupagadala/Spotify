@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray: #b3b3b3;
+  --color-dark-gray: #1f1f1f;
+  --color-primary: #1db954; /* Spotify green, optional */
+  --bg-dark: #000000;
+  --bg-gray-1: #121212;
+  --bg-gray-2: #1f1f1f;
+  --bg-elevated: #181818;
+}

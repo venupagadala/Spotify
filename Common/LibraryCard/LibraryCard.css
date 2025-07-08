@@ -1,0 +1,64 @@
+/* Card container */
+.CfruGiDGW_FH4l65GMpb,
+.fIgbQ9qpINdyy__tkaHi {
+  display: flex;
+  flex-direction: column;
+}
+
+.CfruGiDGW_FH4l65GMpb {
+  justify-content: center;
+  align-items: flex-start;
+  background: var(--background-elevated-base, #181818);
+  border-radius: 8px;
+  gap: 10px;
+  margin: 8px 0;
+  padding: 16px 24px;
+}
+
+/* Flex grow and positioning */
+.wM72343CksOCaL3bZvKK {
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+  position: relative;
+  user-select: none;
+}
+
+/* Styling block wrapper */
+.lHJd4oSttKLxkxuoZ0Lr {
+  background-color: var(--background-base, #1f1f1f);
+  border-radius: 8px;
+  cursor: default;
+  overflow-x: hidden;
+}
+
+/* Optional text/button styles */
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.desc {
+  color: #fff;
+  font-size: 14px;
+  padding-bottom: 18px;
+}
+
+.btn {
+  padding: 4px 16px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  font-weight: 700;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);  
+  background-color: #fff;
+  color: #000;    
+  border: none;
+}
