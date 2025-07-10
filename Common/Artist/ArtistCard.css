@@ -20,12 +20,24 @@
   overflow: hidden;
 }
 
-.artist-img {
+.artist-img-circle {
   width: 171px;
   height: 171px;
   object-fit: cover;
   background-color: var(--background-elevated-base, #181818);
   border-radius: 50%;
+   padding-bottom: 10px;
+   background-color: inherit;
+}
+.artist-img-rectangle
+{
+    width: 171px;
+    height: 171px;
+    object-fit: cover;
+    background-color: var(--background-elevated-base, #181818);
+    padding-bottom: 10px;
+    background-color: inherit;
+    border-radius: 8px;
 }
 
 .play-button {
