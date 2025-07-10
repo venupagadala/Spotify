@@ -1,0 +1,53 @@
+.custom-toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #323232;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  opacity: 0;
+  transform: translateY(-30px);
+  transition: opacity 0.3s ease, transform 0.3s ease, box-shadow 0.5s ease, border 0.5s ease;
+  z-index: 9999;
+
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  box-shadow: 0 0 0 rgba(29, 185, 84, 0);
+}
+
+.custom-toast.show {
+  opacity: 1;
+  transform: translateY(0);
+  border-color: #1db954;
+  box-shadow: 0 0 15px rgba(29, 185, 84, 0.6);
+}
+
+.toast-icon {
+  color: #1db954;
+}
+
+
+.toast-login-btn {
+  margin-left: 12px;
+  padding: 8px 16px;
+  background-color: white;
+  border: none;
+  border-radius: 18px;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.toast-login-btn:hover {
+  background-color: #f0f0f0; /* Light gray on hover */
+  color: black;
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
