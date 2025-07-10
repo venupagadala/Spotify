@@ -36,13 +36,13 @@
 }
 
 .library-section {
-  width: 30%;
-  padding: 10px 10px 24px;
+  width: 28%;
   background-color: var(--bg-gray-1);
   border-radius: 10px;
+  
 }
 
 .trending-section {
-  width: 70%;
+  width: 72%;
   padding-left: 10px;
 } 

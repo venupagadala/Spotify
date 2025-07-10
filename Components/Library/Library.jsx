@@ -29,7 +29,7 @@ export default function Library() {
       </div>
 
       {/* Footer stays at the bottom */}
-      <footer className="px-4">
+      <footer className="px-4 pb-4">
         <div className="footer-options d-flex justify-content-start align-items-center flex-wrap text-start">
           <div className="footer-option">Legal</div>
           <div className="footer-option">Safety and privacy</div>
