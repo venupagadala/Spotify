@@ -4,7 +4,7 @@
   right: 20px;
   background-color: #323232;
   color: white;
-  padding: 12px 20px;
+  padding: 12px 10px;
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -13,6 +13,7 @@
   transform: translateY(-30px);
   transition: opacity 0.3s ease, transform 0.3s ease, box-shadow 0.5s ease, border 0.5s ease;
   z-index: 9999;
+  height: 60px;
 
   border: 2px solid transparent;
   background-clip: padding-box;
@@ -49,5 +50,17 @@
   color: black;
   transform: scale(1.05); /* Slightly enlarge on hover */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.toast-close-icon
+{
+    cursor: pointer;
+    color: #b3b3b3;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+.toast-close-icon:hover {
+    color: white; /* Change color on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
 }
 

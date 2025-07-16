@@ -52,8 +52,8 @@
     border-radius: 50px;
     border: 1px solid gray;
     font-size: 16px;
-    color: var(--white, #ffffff);
-    background-color: transparent;
+    /* color: var(--white, #ffffff);
+    background-color: transparent; */
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
     font-weight: 700;
@@ -118,8 +118,8 @@ input:focus {
 
 .continue-btn, .login-btnn
 {
-    background-color: var(--green, #1db954);
-    color: var(--white, #ffffff);
+    /* background-color: var(--green, #1db954);
+    color: var(--white, #ffffff); */
     border: none;
     padding: 10px 20px;
     border-radius: 50px;
@@ -159,5 +159,12 @@ input:focus {
 .sign-up:hover {
     text-decoration: underline;
     color: var(--primary-color, #1db954);
+}
+
+.error-message
+{
+    color: var(--red, #ff0000);
+    font-size: 14px;
+    width: 324px;
 }
 
