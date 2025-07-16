@@ -1,6 +1,3 @@
-Sure! Here's a polished, complete README.md for your Spotify clone project including the **live demo link** and all relevant sections based on what you shared:
-
-```markdown
 # 🎧 Spotify Clone
 
 A Spotify UI Clone built using React and Bootstrap.  
@@ -94,14 +91,7 @@ This project is part of my personal journey to improve my React skills by buildi
 
 ---
 
-## 📄 License
-
-This project is for learning and personal showcase purposes only.
-All Spotify brand assets and content belong to Spotify®.
 
 ```
 
----
-
-If you want, I can also help you generate a nice **screenshot section** or **badge icons** for tech or license. Just ask!
 ```
